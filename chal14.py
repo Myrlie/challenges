@@ -83,7 +83,7 @@ for row in file:
 #challenge 116
 import csv
 
-file = list(csv.reader(open("Book.csv")))
+file = list(csv.reader(open("Books.csv")))
 Booklist = []
 for row in file:
     Booklist.append(row)
@@ -112,7 +112,7 @@ newdata = input("Enter new data: ")
 Booklist[alter][part] = newdata
 print(Booklist[alter])
 
-file = open("Book.csv", "w")
+file = open("Books.csv", "w")
 x = 0
 for row in Booklist:
     newrecord = Booklist[x][0]+ ", " + Booklist[x][1]+ ", " + Booklist[x][2] + "\n"
