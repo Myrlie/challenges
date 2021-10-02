@@ -84,7 +84,7 @@ import random
 colour = random.choice(["red", "blue", "green", "white", "pink"])
 print("Select from red, blue, green, while or pink")
 tryagain = True
-while tryagain = True:
+while tryagain == True:
     theirchoice = input("Enter a colour: ")
     theirchoice = theirchoice.lower()
     if colour == theirchoice:
